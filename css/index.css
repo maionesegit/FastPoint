@@ -1,0 +1,48 @@
+.logo {
+    display: inline-block;
+    height: 100%;
+	margin-left: 20px;
+}
+
+.logo>img {
+    vertical-align: middle
+}
+
+@media only screen and (max-width: 992px) {
+	.logo {
+		margin-left: 0;
+		position: absolute;
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+				transform: translateX(-50%);
+	}
+}
+
+.padding0 {
+	padding: 0 !important;
+}
+
+.select-dropdown {
+	color:#9e9e9e !important;
+}
+
+.tabs .tab a{
+	color:#4CAF50;
+}
+
+.tabs .tab a:hover {
+	color:#4CAF50;
+}
+
+.tabs .tab a.active {
+	color:#4CAF50;
+}
+
+.tabs .indicator {
+	background-color:#4CAF50;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: #424242;
+    outline: none;
+}
